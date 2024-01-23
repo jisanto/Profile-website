@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+     display:block;
+}
+
+#about {
+
+    padding: 120px;
+}
+
+#about h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color:#320073 ;
+    margin-bottom: 80px;
+}
+
+#about div.container {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#about div.container div.left-container {
+
+    width: 38%;
+}
+
+#about div.container div.left-container div.image-container {
+    width: 50%;
+}
+
+#about div.container div.left-container div.image-container img {
+    width: 100%;
+    display: block;
+}
+
+#about div.container div.right-container {
+    width: 54%;
+}
+#about div.container div.right-container h3 {
+    margin-bottom: 10px;font-size: 30px;color: blueviolet;
+}
+
+#about div.container div.right-container p {
+    line-height: 1.5rem;color: darkslategrey;
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+#about div.container div.right-container div.list-container{
+    display:flex;
+}
+#about div.container div.right-container div.list-container ul {
+    width:48%;
+}
+#about div.container div.right-container div.list-container ul li {
+    margin-bottom:20px;
+}
+#about div.container div.right-container div.list-container ul li{
+    font-family:'Times New Roman';
+}
+#about div.container div.right-container button{
+    color: mediumseagreen;
+    border-color: chocolate;border-radius: 10cm;
+    padding: 20px 40px ;
+    font-style: oblique;
+
+}
