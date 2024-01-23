@@ -68,10 +68,9 @@ img {
 #about div.container div.right-container div.list-container ul li{
     font-family:'Times New Roman';
 }
-#about div.container div.right-container button{
+#about div.container div.right-container a{
     color: mediumseagreen;
     border-color: chocolate;border-radius: 10cm;
     padding: 20px 40px ;
     font-style: oblique;
-
 }
